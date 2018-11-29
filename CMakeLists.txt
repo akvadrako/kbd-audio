@@ -31,6 +31,7 @@ include_directories(imgui)
 include_directories(imgui/examples)
 include_directories(imgui/examples/libs/gl3w)
 include_directories(${SDL2_INCLUDE_DIRS})
+include_directories(/usr/local/include)
 
 add_library(Core STATIC
     audio_logger.cpp

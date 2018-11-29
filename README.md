@@ -1,3 +1,14 @@
+Installation
+------------
+
+    brew install sdl2
+    git submodule init
+    git submodule update
+    cmake .
+    make
+
+Usage
+-----
 ## record-full
 
 Record audio to a raw binary file on disk
